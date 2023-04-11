@@ -1,0 +1,37 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a :hover{
+    opacity: 0.7;
+}
+
+.Logo{
+    size: 8vh;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #0a135f;
+    height: 8vh;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}

@@ -1,0 +1,105 @@
+/* Estilo geral */
+* {
+	box-sizing: border-box;
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #f8f8f8;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 20px;
+}
+
+h1 {
+	flex: 1;
+	font-size: 24px;
+	margin: 0;
+}
+
+.search {
+	flex: 1;
+	display: flex;
+	align-items: center;
+}
+
+.search input {
+	flex: 1;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	margin-right: 10px;
+}
+
+.search button {
+	padding: 10px 20px;
+	background-color: #f2c94c;
+	border: none;
+	border-radius: 5px;
+	color: #333;
+	cursor: pointer;
+}
+
+.btn-cadastro {
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 5px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+/* Estilo da lista de nomes */
+main {
+	margin: 20px;
+}
+
+.filter {
+	margin-bottom: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.filter select {
+	margin-left: 10px;
+	padding: 5px;
+	border-radius: 5px;
+	border: none;
+}
+
+.filter label {
+	margin-right: 10px;
+}
+
+.nomes-lista {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.nomes-lista li {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+.nomes-lista li:last-child {
+	border-bottom: none;
+}
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exemplo de página com barra de pesquisa, cadastro e lista de nomes</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="teste.css">
+	<script src="teste.js"></script>
+</head>
+<body>
+	<header>
+		<div class="search">
+			<input type="text" placeholder="Pesquisar">
+			<button>Pesquisar</button>
+		</div>
+		<a href="cadastro.html" class="btn-cadastro">Novo cadastro</a>
+	</header>
+	<main>
+		<div class="filter">
+			<label>Filtrar:</label>
+			<select>
+				<option value="">Todos</option>
+				<option value="sim">Sim</option>
+				<option value="nao">Não</option>
+			</select>
+			<label>Ordenar:</label>
+			<select>
+				<option value="a-z">A-Z</option>
+				<option value="z-a">Z-A</option>
+			</select>
+		</div>
+		<ul id="lista">
+			<!-- Lista de nomes será gerada aqui -->
+		</ul>
+	</main>
+	
+</body>
+</html>
